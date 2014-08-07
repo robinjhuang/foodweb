@@ -11,7 +11,7 @@
 	min-width: 800px;
 	max-height: 1000px;
 	display: inline-block;
-	width: 80%;
+	width: 70%;
 }
 
 .recipe-title {
@@ -22,7 +22,18 @@
 	letter-spacing: 0.1em;
 	font-size: 38px;
 	font-family:'Open Sans Condensed', 'Abril Fatface', sans-serif;
+	line-height: 1.3em;
 
+}
+
+.recipe-title-p {
+	width: 450px;	
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 20px;
+	font-family:'Open Sans Condensed', 'Abril Fatface', sans-serif;
 }
 
 .recipe-header h3 {
@@ -39,7 +50,7 @@
 	margin: 0 auto;
 	display: block;
 	margin-top: 25px;
-
+	height: 450px;
 }
 
 /* Ingredients List */
@@ -120,4 +131,37 @@ a:hover {
 	line-height: 2em;
 	font-size: 18px;
 	color: black;
+}
+
+/* Hover Panel*/
+
+.hover-panel {
+	margin: 3rem auto 0;
+}
+
+.popover {
+	max-width: 400px; /* Makes sure the popover content scales to the size of image*/
+}
+.btn-popover {
+	color: inherit;
+	background-color: transparent;
+	padding: 0;
+}
+
+.btn-popover:hover {
+	color: inherit;
+}
+
+.btn-gif {
+	color: inherit;
+	padding: 0px;
+}
+
+
+.popover.right {
+	margin-left: 15px;
+}
+
+.gif {
+	width: 100%;
 }
