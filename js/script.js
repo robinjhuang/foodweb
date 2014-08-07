@@ -14,6 +14,18 @@
     // });
 
     $(document).ready(function(){
+
+        $('.btn-popover').popover();
+
+        // Add custom JS here
+        $('a[rel=popover]').popover({
+            html: true,
+            trigger: 'hover',
+            placement: 'bottom',
+            delay: {show: 30, hide: 30},
+            content: function(){return '<img class= "gif" src="'+$(this).data('img') + '" />';}
+            });
+
         
         //INGREDIENT CARET ICON
 
