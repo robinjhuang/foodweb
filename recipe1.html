@@ -6,18 +6,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Recipe</title>
+    <title>NubNub</title>
 
-    <!-- Comfortaa Regular Google Font -->
-    <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
-    <!-- Lato Font -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
-
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500' rel='stylesheet' type='text/css'>
+    
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300,200' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.nightly.css">
@@ -30,29 +28,47 @@
 
 <body>
 
+    <!--Code for Empty Text Hover Over
+    <button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content=""></button>
+
+    Code for Empty Image Hover Over
+    <a class="btn btn-gif" rel = "popover" data-img=""></a>
+     -->
+
     <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="recipes">
+                <div class="recipe-titles">
                 <h1 class="recipe-title" style="margin-top: 25px;">Pressed</h1>
                 <h1 class="recipe-title">Pork</h1>
                 <h1 class="recipe-title">Belly</h1>
                 <p class="recipe-title-p">by Gordon Ramsay</p>
+                </div>
+                <div class="recipe-image-container">
                 <img class="recipe-image" src="img/pressed-pork-belly.jpg">
+                </div>
             </div>
+
+            <div class="instruction-container">
+                
+            </div>
+
+
+
                 <div class="row instructions col-lg-12">
                     <div class="ingredients col-lg-12 recipe-header">
-                        <h3><i id="ingredient-icon" class="fa fa-caret-right"></i><a id="ingredient-header" type="button" id="toggle-button" data-toggle="collapse" data-target="#ingredients-info">Ingredients</a></h3>
-                        <div class="ingredients-list collapse in" id="ingredients-info">
+                        <h3><i id="ingredient-icon" class="fa fa-caret-right"></i><a class="section-header" id="ingredient-header" type="button" id="toggle-button" data-toggle="collapse" data-target="#ingredients-info">Ingredients</a></h3>
+                        <div class="ingredients-list collapse" id="ingredients-info">
                             <table>
                                 <tr>
                                     <td class="quantity">2.5 lb</td>
-                                    <td><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="leaner the better.">Pork Belly*</button></td>
+                                    <td><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="The leaner the better.">Pork Belly*</button></td>
                                      <td class="quantity">2 heads</td>
                                     <td id="viewport"><a class="btn btn-gif" rel = "popover" data-img="img/good-fellas-garlic.gif">Garlic*</a></td>
                                    
                                 </tr>
                                 <tr>
-                                    <td class="quantity">A lot of</td>
+                                    <td class="quantity">A lot</td>
                                     <td>Thyme</td>
                                     <td class="quantity">2 cups</td>
                                     <td>Chicken Stock</td>
@@ -65,32 +81,36 @@
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td>Olive Oil</td>
+                                    <td><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="I actually recommend using the cheaper labeled “olive oil” here instead of more robust “extra virgin olive oils” since the former has a higher smoke point (around 410 degrees Fahrenheit).">Olive Oil*</button></td>
+                                    <td></td>
+                                    <td>A little cheap white wine</td>
                                 </tr>
                             </table>
                         </div>
                     </div>
                     <div class="kitchentools col-lg-12 recipe-header">
-                        <h3><i id="kitchen-icon" class="fa fa-caret-right"></i><a id="kitchentools-header" type="button"  data-toggle="collapse" data-target="#kitchen-info">Kitchen Tools</a></h3>
+                        <h3><i id="kitchen-icon" class="fa fa-caret-right"></i><a class="section-header" id="kitchen-tools-header" type="button"  data-toggle="collapse" data-target="#kitchen-info">Kitchen Tools</a></h3>
                         <ul id="kitchen-info" class="kitchen-tools-list collapse">
-                            <li>Really sharp knife*</li>
+                            <li><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="Scoring the pig belly skin without sharpening is impossible, so it's really important to sharpen up here.">Really Sharp Knife*</button></li>
                             <li>Oven</li>
                             <li>Chopping board</li>
-                            <li>Two Roasting Tray*</li>
+                            <li><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="Ideally something you can put on a hot stove top after the baking process, since you’re going to want to reduce the juices from the tray with wine, as well as use the juices to baste the pork belly.">Roasting Tray*</button></li>
                             <li>Aluminum Foil</li>
-                            <li>Something to Baste with*</li>
-                            <li>Heavy Objects</li>
-                            <li>Fine sieve*</li>
+                            <li><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="eg. Basting brush, spoon, bulb baster.">Something to baste with*</button></li>
+                            <li><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="Or anything that can cover the surface area of the pork belly so that you can place heavy objects on top of this tray to press the pork belly when it goes into the fridge to cool.">Another tray*</button><a class="btn btn-gif" rel = "popover" data-img="img/another-tray.jpg"> (pic here)*</a></li>
+                            <li><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="*This presses down the thick skin of pork belly to give it that signature thin crisp skin.">Heavy Objects to place on top of top tray*</button></li>
+                            <li>Stove Top</li>
+                            <li><button type="button" class="btn btn-popover popover-dismiss" data-container="body" data-trigger ="hover" data-toggle="popover" data-placement="bottom" title data-content="This separates the sediment from the garlic, and creates a light gravy for pork.">Fine sieve*</button></li>
+
+
                         </ul>
                     </div>
                     <div class="prep col-lg-12 recipe-header">
-                        <h3><i id="prep-icon" class="fa fa-caret-right"></i><a id="prep-header" type="button" data-toggle="collapse" data-target="#prep-info">Prep: 20 Minutes</a></h3>
+                        <h3><i id="prep-icon" class="fa fa-caret-right"></i><a class="section-header" id="prep-header" type="button" data-toggle="collapse" data-target="#prep-info">Prep: 20 Minutes</a></h3>
                         <ol id="prep-info" class="collapse">
                             <li>Preheat the oven to 325 degrees Fahrenheit</li>
-                            <li>Lay the pork belly flat on your chopping board*</li>
-                            <li>Score the skin in a criss-cross pattern with your sharp knife.</li>
-                            <li>Turn the belly skin side down and cut a slit through the thick end of the pork so it is even throughout when you lay it flat.</li>
-                            <li>Rub generously all over with salt, pepper, and olive oil.</li>
+                            <li><a class="btn btn-gif" rel = "popover" data-img="img/crossing-belly.gif">Score the skin in a criss-cross pattern*</a></li>
+                            <li><a class="btn btn-gif" rel = "popover" data-img="img/salting.gif">Rub generously all over with salt*</a><a class="btn btn-gif" rel = "popover" data-img="img/oliveoil.gif">AND Olive Oil*</a></li>
                             <li>Place garlic, halved side up, on an oiled up roasting tray* and scatter the thyme sprigs (pic below)</li>
                             <li> Lay the pork belly on top, skin side up*</li>
                             <li>Drizzle more olive oil on top, and sprinkle generously with more sea salt.</li>
@@ -98,9 +118,10 @@
                         </ol>
                     </div>
                     <div class="cook col-lg-12 recipe-header">
-                        <h3> <i id="cook-icon" class="fa fa-caret-right"></i><a id="cook-header" type="button"  data-toggle="collapse" data-target="#cook-info">Cook: 8-16 HRS*</a></h3>
+                        <h3> <i id="cook-icon" class="fa fa-caret-right"></i><a class="section-header" id="cook-header" href="#cook-icon" type="button"  data-toggle="collapse" data-target="#cook-info">Cook: 8-16 HRS*</a></h3>
+                        
                         <ol id="cook-info" class="collapse">
-                            <li>Loosely cover the whole tray with foil*, and bake for 1.5 hours on 325 F</li>
+                            <li>Loosely cover the whole tray with foil*, and bake for 1.5 hours on 325 F<p id="timer" class="timer-block"><button id="start-button1" class="btn btn-danger">Start</button></p></li>
                             <li>Remove the foil, baste the pork with the juices* and stick it back in the oven at the same temp for 1 more hour, while consistently basting it a few times in this time span</li>
                             <li>When the pork is tender, put it back on your chopping board and let it cool for 15 minutes.</li>
                             <li>While the pork is cooling, place your roasting tray -- with all the juices from the roasted pork -- over high heat on your stove top, and deglaze* the tray with about a cup of white wine, scraping the sediment off the bottom, and popping the heads of the garlic to release the flavor in them. Mix this all up, and bring it to a boil.</li>
@@ -112,6 +133,7 @@
                             <li>Take the pork out, and put it back on the chopping board. Cut the pressed pork into however many squares* or rectangles you want to serve, and pat the skin dry a bit with paper tissue.</li>
                         </ol>
                     </div>
+                    <div id="cook-target"></div>
                 </div> <!-- End of Instructions -->
 
                 <div class="hover-panel col-lg-3">
@@ -124,6 +146,7 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.smooth-scroll.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
         
    
